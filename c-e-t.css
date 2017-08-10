@@ -1,0 +1,329 @@
+/*------------------------------------------------
+
+    Creekle Ebay Template Styles
+    Copyright 2017 Silk Worldwide LLC DBA Creekle
+
+ -------------------------------------------------*/
+
+
+
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600');
+
+.c-e-t .ce-wrapper {
+    font-family: Roboto, "Hind Vadodara", Helvetica, sans-serif;
+    max-width: 1180px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.c-e-t .ce-wrapper h2 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+}
+.c-e-t .ce-wrapper h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+.c-e-t .ce-wrapper p,
+.c-e-t .ce-wrapper li,
+.c-e-t .ce-wrapper td {
+    font-size: 14px;
+    color: #333;
+}
+.c-e-t .ce-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+
+}
+.c-e-t .ce-clearfix {
+    clear: both;
+}
+.c-e-t .ce-hr {
+    border-bottom: 2px solid #e8e8e8;
+}
+.c-e-t .ce-orange {
+    color: #f26132;
+}
+.c-e-t .ce-gray {
+    color: #07354b;
+}
+
+/* Creekle Ebay Template - Header Styles */
+
+.c-e-t .ce-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8e8e8;
+    overflow: hidden;
+}
+.c-e-t .ce-header h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+.c-e-t .ce-header h2 .ce-subheader {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    color: #666;
+}
+.c-e-t .ce-header .ce-logo {
+    width: 200px;
+}
+.c-e-t .ce-header .ce-banner-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 10px 10px;
+    background: #f2f2f2;
+}
+.c-e-t .ce-header .ce-banner-right .ce-warranty {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border-right: 2px solid #e8e8e8;
+}
+.c-e-t .ce-header .ce-banner-right .ce-warranty .ce-orange {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-right: 5px;
+}
+.c-e-t .ce-header .ce-banner-right .ce-warranty .ce-gray {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+.c-e-t .ce-header .ce-banner-right .ce-shipping {
+    text-transform: uppercase;
+    padding: 0px 15px;
+    border-right: 2px solid #e8e8e8;
+}
+.c-e-t .ce-header .ce-banner-right .ce-shipping .ce-orange,
+.c-e-t .ce-header .ce-banner-right .ce-shipping .ce-gray {
+    display: block;
+}
+.c-e-t .ce-header .ce-banner-right .ce-shipping .ce-orange {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1em;
+}
+.c-e-t .ce-header .ce-banner-right .ce-shipping .ce-gray {
+    font-size: 12px;
+    font-weight: 700;
+}
+.c-e-t .ce-header .ce-banner-right .ce-returns {
+    padding: 0 15px;
+    border-right: 2px solid #e8e8e8;
+    text-transform: uppercase;
+}
+.c-e-t .ce-header .ce-banner-right .ce-returns .ce-orange,
+.c-e-t .ce-header .ce-banner-right .ce-returns .ce-gray {
+    display: block;
+}
+.c-e-t .ce-header .ce-banner-right .ce-returns .ce-orange {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1em;
+}
+.c-e-t .ce-header .ce-banner-right .ce-returns .ce-gray {
+    font-size: 12px;
+    font-weight: 700;
+}
+.c-e-t .ce-header .ce-retailer {
+    padding: 0 15px;
+}
+.c-e-t .ce-header .ce-retailer .ce-bolton-logo {
+    width: 100px;
+    display: block;
+    position: relative;
+    top: 3px;
+}
+.c-e-t .ce-header .ce-retailer .ce-gray {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* Body Styles */
+
+.c-e-t .ce-body .ce-product-image img {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.c-e-t .ce-body .ce-product-description h2 {
+    margin-top: 30px;
+}
+.c-e-t .ce-body .ce-table {
+    width: 100%;
+}
+.c-e-t .ce-body .ce-table td {
+    padding: 5px 10px;
+    min-width: 120px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.c-e-t .ce-body .ce-table td:last-child {
+    border-right: 0;
+}
+
+/* Simple Responsive Grid System */
+
+.c-e-t .ce-col-md-1, .c-e-t .ce-col-md-2, .c-e-t .ce-col-md-3, .c-e-t .ce-col-md-4, .c-e-t .ce-col-md-5, .c-e-t .ce-col-md-6, .c-e-t .ce-col-md-7, .c-e-t .ce-col-md-8, .c-e-t .ce-col-md-9, .c-e-t .ce-col-md-10, .c-e-t .ce-col-md-11, .c-e-t .ce-col-md-12 {
+    float: left; padding: 0 15px; box-sizing: border-box;
+}
+
+.c-e-t .ce-col-md-1 {
+    width: 8.333%;
+}
+.c-e-t .ce-col-md-2 {
+    width: 16.666%;
+}
+.c-e-t .ce-col-md-3 {
+    width: 25%;
+}
+.c-e-t .ce-col-md-4 {
+    width: 33.333%;
+}
+.c-e-t .ce-col-md-5 {
+    width: 41.666%;
+}
+.c-e-t .ce-col-md-6 {
+    width: 50%;
+}
+.c-e-t .ce-col-md-7 {
+    width: 58.333%;
+}
+.c-e-t .ce-col-md-8 {
+    width: 66.666%;
+}
+.c-e-t .ce-col-md-9 {
+    width: 75%;
+}
+.c-e-t .ce-col-md-10 {
+    width: 83.333%;
+}
+.c-e-t .ce-col-md-11 {
+    width: 91.666%;
+}
+.c-e-t .ce-col-md-12 {
+    width: 100%;
+}
+
+@media (max-width: 891px) {
+    .c-e-t .ce-col-md-1, .c-e-t .ce-col-md-2, .c-e-t .ce-col-md-3, .c-e-t .ce-col-md-4, .c-e-t .ce-col-md-5, .c-e-t .ce-col-md-6, .c-e-t .ce-col-md-7, .c-e-t .ce-col-md-8, .c-e-t .ce-col-md-9, .c-e-t .ce-col-md-10, .c-e-t .ce-col-md-11, .c-e-t .ce-col-md-12 {
+        width: 100%;
+    }
+    .c-e-t .ce-col-sm-1, .c-e-t .ce-col-sm-2, .c-e-t .ce-col-sm-3, .c-e-t .ce-col-sm-4, .c-e-t .ce-col-sm-5, .c-e-t .ce-col-sm-6, .c-e-t .ce-col-sm-7, .c-e-t .ce-col-sm-8, .c-e-t .ce-col-sm-9, .c-e-t .ce-col-sm-10, .c-e-t .ce-col-sm-11, .c-e-t .ce-col-sm-12 {
+        float: left;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .c-e-t .ce-col-sm-1 {
+        width: 8.333%;
+    }
+    .c-e-t .ce-col-sm-2 {
+        width: 16.666%;
+    }
+    .c-e-t .ce-col-sm-3 {
+        width: 25%;
+    }
+    .c-e-t .ce-col-sm-4 {
+        width: 33.333%;
+    }
+    .c-e-t .ce-col-sm-5 {
+        width: 41.666%;
+    }
+    .c-e-t .ce-col-sm-6 {
+        width: 50%;
+    }
+    .c-e-t .ce-col-sm-7 {
+        width: 58.333%;
+    }
+    .c-e-t .ce-col-sm-8 {
+        width: 66.666%;
+    }
+    .c-e-t .ce-col-sm-9 {
+        width: 75%;
+    }
+    .c-e-t .ce-col-sm-10 {
+        width: 83.333%;
+    }
+    .c-e-t .ce-col-sm-11 {
+        width: 91.666%;
+    }
+    .c-e-t .ce-col-sm-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .c-e-t .ce-col-xs-1, .c-e-t .ce-col-xs-2, .c-e-t .ce-col-xs-3, .c-e-t .ce-col-xs-4, .c-e-t .ce-col-xs-5, .c-e-t .ce-col-xs-6, .c-e-t .ce-col-xs-7, .c-e-t .ce-col-xs-8, .c-e-t .ce-col-xs-9, .c-e-t .ce-col-xs-10, .c-e-t .ce-col-xs-11, .c-e-t .ce-col-xs-12 {
+        float: left;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .c-e-t .ce-col-xs-1 {
+        width: 8.333%;
+    }
+    .c-e-t .ce-col-xs-2 {
+        width: 16.666%;
+    }
+    .c-e-t .ce-col-xs-3 {
+        width: 25%;
+    }
+    .c-e-t .ce-col-xs-4 {
+        width: 33.333%;
+    }
+    .c-e-t .ce-col-xs-5 {
+        width: 41.666%;
+    }
+    .c-e-t .ce-col-xs-6 {
+        width: 50%;
+    }
+    .c-e-t .ce-col-xs-7 {
+        width: 58.333%;
+    }
+    .c-e-t .ce-col-xs-8 {
+        width: 66.666%;
+    }
+    .c-e-t .ce-col-xs-9 {
+        width: 75%;
+    }
+    .c-e-t .ce-col-xs-10 {
+        width: 83.333%;
+    }
+    .c-e-t .ce-col-xs-11 {
+        width: 91.666%;
+    }
+    .c-e-t .ce-col-xs-12 {
+        width: 100%;
+    }
+}
+
+/* All Media Queries */
+
+@media (max-width: 891px) {
+    .c-e-t .ce-sm-hide {
+        display: none !important;
+    }
+    .c-e-t .ce-header .ce-banner-right .ce-returns {
+        border-right: 0;
+    }
+    .c-e-t .ce-header h2 {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .c-e-t .ce-xs-hide {
+        display: none !important;
+    }
+}
