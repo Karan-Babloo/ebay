@@ -158,6 +158,11 @@
     display: block;
     margin: 0 auto;
 }
+
+.c-e-t .ce-body .ce-product-description {
+    margin-bottom: 20px;    
+}
+
 .c-e-t .ce-body .ce-product-description h2 {
     margin-top: 30px;
 }
